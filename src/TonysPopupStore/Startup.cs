@@ -36,7 +36,19 @@ namespace TonysPopupStore
 
             app.UseDefaultFiles();
             app.UseStaticFiles();
-            app.UseMvc();
+            app.UseMvc(routes =>
+            {
+                routes.MapRoute(
+                    name: "Angular Routing",
+                    template: "{*url}",
+                    defaults: new { controller = "Spa", action = "SpaFallback" }
+                );
+
+                routes.MapRoute(
+                    name: "DefaultApi",
+                    template: "api/{controller}"
+                );
+            });
         }
     }
 }
