@@ -1,13 +1,12 @@
 :host {
-    .content{
+    .content {
         text-align: center;
     }
-    img{
+    img {
         max-width: 100%;
     }
-
-    .textbox{
-        background-image: url('assets/images/infopage_tonyspopup_textbox.png');
+    .textbox {
+        background-image: url('/assets/images/infopage_tonyspopup_textbox.png');
         background-repeat: no-repeat;
         background-size: 100% 100%;
         max-width: 689px;
@@ -18,12 +17,10 @@
         padding: 20px 50px 50px 95px;
         font-weight: bold;
     }
-
-    .flyer{
+    .flyer {
         margin: 25px 0 25px 0;
     }
-
-    .bag{
+    .bag {
         margin: 25px 0 0 0;
     }
 }
