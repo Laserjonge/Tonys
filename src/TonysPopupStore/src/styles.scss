@@ -9,13 +9,35 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'kefaregular';
+    src: url('assets/fonts/kefa-regular-webfont.woff2') format('woff2'),
+         url('assets/fonts/kefa-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 body {
     background-color: $red;
     padding: 0 0 50px 0;
     margin: 0;
+    font-family: 'kefaregular';
 }
 
 .container{
     max-width: 1024px;
     margin: 0 auto;
+}
+
+.title{
+    font-family: 'playbillregular';
+    font-size: 60pt;
+    line-height: 60pt;
+    text-transform: uppercase;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+    margin-left: 140px;
+    transform: scale(1.5,1)
 }

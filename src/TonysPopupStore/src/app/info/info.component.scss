@@ -1,0 +1,29 @@
+:host {
+    .content{
+        text-align: center;
+    }
+    img{
+        max-width: 100%;
+    }
+
+    .textbox{
+        background-image: url('assets/images/infopage_tonyspopup_textbox.png');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        max-width: 689px;
+        max-height: 240px;
+        margin: 25px auto;
+        font-size: 25pt;
+        text-align: left;
+        padding: 20px 50px 50px 95px;
+        font-weight: bold;
+    }
+
+    .flyer{
+        margin: 25px 0 25px 0;
+    }
+
+    .bag{
+        margin: 25px 0 0 0;
+    }
+}
