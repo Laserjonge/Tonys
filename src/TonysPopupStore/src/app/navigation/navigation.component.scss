@@ -1,0 +1,31 @@
+@import '../../assets/sass/_variables.scss';
+
+:host {
+    .menu {
+        margin-top: 36px;
+        background-color: $yellow;
+    }
+    ul {
+        display: block;
+        height: 50px;
+        max-width: 950px;
+        margin: 0 auto;
+
+        li {
+            float: left;
+            list-style: none;
+            margin: 0 40px 0 40px;
+            line-height: 50px;
+            display: block;
+            transform: scale(1.5,1)
+        }
+    }
+
+    a {
+        color: $blue;
+        text-decoration: none;
+        font-size: 25pt;
+        font-family: 'playbillregular';
+        text-transform: uppercase;
+    }
+}
