@@ -1,22 +1,5 @@
-/* You can add global styles to this file, and also import other style files */
 @import 'assets/sass/_variables.scss';
-
-@font-face {
-    font-family: 'playbillregular';
-    src: url('assets/fonts/playbill-webfont.woff2') format('woff2'),
-         url('assets/fonts/playbill-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'kefaregular';
-    src: url('assets/fonts/kefa-regular-webfont.woff2') format('woff2'),
-         url('assets/fonts/kefa-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
+@import 'assets/sass/_fonts.scss';
 
 body {
     background-color: $red;
