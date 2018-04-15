@@ -1,7 +1,4 @@
 :host {
-    .content {
-        text-align: center;
-    }
     .mockup {
         margin: 60px 0 40px 0;
     }
@@ -10,13 +7,7 @@
     }
     .textbox {
         background-image: url('/assets/images/openinghourspage_tonyspopup_textbox.png');
-        background-repeat: no-repeat;
-        background-size: 100% 100%;
         max-width: 740px;
         padding: 80px 20px 80px 100px;
-        font-size: 25pt;
-        margin: 0 auto;
-        text-align: left;
-        font-weight: bold;
     }
 }
