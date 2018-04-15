@@ -19,4 +19,16 @@
             text-decoration: underline;
         }
     }
+    @media screen and (max-width: 900px) {
+        .title {
+            margin-left: 16.6vw;
+        }
+        .textbox {
+            padding: 5.5vw 2.2vw 5.5vw 8.8vw;
+            margin-top: 5.5vw;
+        }
+        .westergastterein {
+            margin: 6.6vw 0 4.4vw 0;
+        }
+    }
 }

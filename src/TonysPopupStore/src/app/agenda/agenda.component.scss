@@ -5,7 +5,7 @@
     .textbox {
         background-image: url('/assets/images/agendapage_tonyspopup_textbox.png');
         max-width: 720px;
-        padding: 80px 20px 80px 60px;
+        padding: 80px 0 80px 60px;
     }
     .mockup {
         margin: 60px 0 40px 0;
@@ -17,6 +17,7 @@
         td {
             padding: 0;
             margin: 0;
+            white-space: nowrap;
         }
         td:nth-child(2) {
             text-align: right;
@@ -26,6 +27,22 @@
         }
         td:last-child {
             text-align: right;
+        }
+    }
+    @media screen and (max-width: 900px) {
+        .title {
+            margin-left: 16.1vw;
+        }
+        .textbox {
+            padding: 8.8vw 2vw 8.8vw 5vw;
+        }
+        .mockup {
+            margin: 6.6vw 0 4.4vw 0;
+        }
+        table {
+            td:nth-child(3) {
+                padding: 0 1.6vw 0 1.6vw;
+            }
         }
     }
 }

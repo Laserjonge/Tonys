@@ -16,5 +16,25 @@
     }
     iframe {
         margin: 50px 0 50px 0;
+        width: 885px;
+        height: 489px;
+    }
+    @media screen and (max-width: 950px) {
+        .title {
+            font-size: 8.3vw;
+            line-height: 8.3vw;
+            margin-left: 15.7vw;
+        }
+        .textbox1 {
+            padding: 3.3vw 0 3.3vw 5.5vw;
+        }
+        .textbox2 {
+            padding: 5.5vw 2.2vw 5.5vw 8.8vw;
+        }
+        iframe {
+            margin: 5.5vw 0 5.5vw 0;
+            width: 93.1vw;
+            height: 51.4vw;
+        }
     }
 }

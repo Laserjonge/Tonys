@@ -12,4 +12,16 @@
     .bag {
         margin: 25px 0 0 0;
     }
+    @media screen and (max-width: 900px) {
+        .textbox {
+            padding: 2.2vw 5.5vw 5.5vw 10.5vw;
+            margin: 2.6vw auto;
+        }
+        .flyer {
+            margin: 2.7vw 0 2.7vw 0;
+        }
+        .bag {
+            margin: 2.7vw 0 0 0;
+        }
+    }
 }

@@ -7,8 +7,10 @@
     ul {
         display: block;
         height: 50px;
-        max-width: 950px;
+        max-width: 920px;
         margin: 0 auto;
+        padding: 0;
+        white-space: nowrap;
         li {
             float: left;
             list-style: none;
@@ -24,5 +26,21 @@
         font-size: 25pt;
         font-family: 'playbillregular';
         text-transform: uppercase;
+    }
+    @media screen and (max-width: 930px) {
+        .menu {
+            margin-top: 3.8vw;
+            background-color: $yellow;
+        }
+        ul {
+            height: 5.3vw;
+            li {
+                line-height: 5.3vw;
+                margin: 0 4.3vw 0 4.3vw;
+            }
+        }
+        a {
+            font-size: 3.5vw;
+        }
     }
 }

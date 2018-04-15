@@ -1,11 +1,11 @@
+@import 'app/common/scss/_reset.scss';
 @import 'app/common/scss/_variables.scss';
 @import 'app/common/scss/_fonts.scss';
-
 body {
     background-color: $red;
     padding: 0 0 50px 0;
-    margin: 0;
     font-family: 'kefaregular';
+    min-width: 320px;
 }
 
 img {
@@ -18,15 +18,13 @@ img {
     line-height: 60pt;
     text-transform: uppercase;
     font-weight: normal;
-    margin: 0;
-    padding: 0;
     margin-left: 140px;
     transform: scale(1.5, 1)
 }
 
 .content {
     text-align: center;
-    padding: 0 10px 0 10px;
+    margin: 0 10px 0 10px;
 }
 
 .textbox {
@@ -36,4 +34,18 @@ img {
     font-size: 25pt;
     margin: 0 auto;
     font-weight: bold;
+}
+
+@media screen and (max-width: 900px) {
+    body {
+        padding: 0 0 5.5vw 0;
+    }
+    .title {
+        font-size: 9vw;
+        line-height: 9vw;
+        margin-left: 15.5vw;
+    }
+    .textbox {
+        font-size: 3.7vw;
+    }
 }

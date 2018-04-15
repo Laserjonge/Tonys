@@ -1,5 +1,10 @@
 :host {
-    .img-homepage {
+    .homepage {
         margin: 40px 0 0 0;
+    }
+    @media screen and (max-width: 1024px){
+        .homepage {
+            margin: 3.9vw 0 0 0;
+        }
     }
 }

@@ -1,7 +1,4 @@
 :host {
-    .mockup {
-        margin: 60px 0 40px 0;
-    }
     .title {
         margin-left: 145px;
     }
@@ -9,5 +6,19 @@
         background-image: url('/assets/images/openinghourspage_tonyspopup_textbox.png');
         max-width: 740px;
         padding: 80px 20px 80px 100px;
+    }
+    .mockup {
+        margin: 60px 0 40px 0;
+    }
+    @media screen and (max-width: 900px) {
+        .title {
+            margin-left: 16.1vw;
+        }
+        .textbox {
+            padding: 8.8vw 2.2vw 8.2vw 11.1vw;
+        }
+        .mockup {
+            margin: 6.6vw 0 4.4vw 0;
+        }
     }
 }
